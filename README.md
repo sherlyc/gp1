@@ -39,8 +39,9 @@ _group project 1_
  
       test : check the task value edited task whether it match with our test string.
       
- User Interface (HTML & CSS)
- Main - display all tasks, add task form, edit/delete buttons, dropdown menus for priorities and status
+ # User Interface (HTML & CSS)
+ Main - display all tasks, add task form, edit/delete buttons, dropdown menus for priorities and status.
+ 
  Edit - form to edit data , post to Main to display tasks
  
            
