@@ -17,7 +17,7 @@ filterPriority = (data, priority) => {
   })
 }
 
-sortPrioirity(data)
+sortPrioirity(data) //this is just to run an example, delete this for final version - Harrisan-san
 
 module.exports = {
   sortPrioirity
