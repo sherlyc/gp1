@@ -6,10 +6,13 @@ _group project 1_
 1) MVP - create a list: with the options to View All Tasks, Add task, remove task, set priority and set status.
 
 2) Stretch a) sort list tasks by priorities
+
            b) edit task
+           
            c) add project/category
 
 3) Streeetch a) sort - by list, done, still to do, in progress. 
+
            b) sort by project/category/owner
            
  # Tasks BreakDown          
