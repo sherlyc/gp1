@@ -1,5 +1,7 @@
-<h1>CREAM</h1>
+var server = require('./server')
 
-<h2> It's rising to the top</h2>
+var PORT = process.env.PORT || 3000
 
-<h3> Coming soon!</h3>
+server.listen(PORT, function () {
+  console.log('Server is listening on port', PORT)
+})
