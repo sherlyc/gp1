@@ -15,9 +15,11 @@ _group project 1_
  # Tasks BreakDown          
  
  1. user can add task - addTask()
+ 
     test: addTask function returns newly added task.
            
  2. user can delete a task - delTask()
+ 
      test: check the length of our data is it -1
  
  3. user can set priority - setPriority()
