@@ -1,15 +1,21 @@
+var path = require('path')
 var express = require('express')
 var hbs = require('express-handlebars')
+//var bodyParser = require('body-parser')
 
 var app = express()
 
-// Middleware
-app.engine('hbs', hbs({
-  defaultLayout: 'main',
+//view engine config
+var hbsConfig = {
+  defultLayout: 'main'
   extname: 'hbs'
-}))
-app.set('view engine', 'hbs')
-app.use(express.static('public'))
+}
+app.engine('hbs',hbs(hbsConfig))
+app.set('view engine','hbs')
+
+// Middleware
+app.use(express.static(path.job(__dirname,'public')))
+
 //app.use(bodyParser.urlencoded({ extended: false }))
 
 module.exports = app
