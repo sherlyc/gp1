@@ -23,16 +23,20 @@ _group project 1_
      test: check the length of our data is it -1
  
  3. user can set priority - setPriority()
+ 
      test : check the value of the priority of the edited task.
  
  4. User can  set status - setStatus()
+ 
      test : check the value of the status of the edited task.
 
  
  5. User can list all tasks - displayTasks()
+ 
       test: check the 3rd task display on webpage, is the string matched with our 3rd test data.
  
  6. user can edit a task - editTask()
+ 
       test : check the task value edited task whether it match with our test string.
       
  User Interface (HTML & CSS)
