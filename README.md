@@ -27,7 +27,7 @@ _group project 1_
            
  2. user can delete a task - delTask()
  
-     test: check the length of our data is it -1
+     test: check the length of our data, is it -1?
  
  3. user can set priority - setPriority()
  
