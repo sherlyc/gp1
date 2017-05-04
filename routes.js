@@ -12,11 +12,17 @@ router.get('/other', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-  // console.log(req.body.newTask)
-  console.log(req.body);
-  funcs.addTask(req.body)
+  var newId = data.length + 1
+  var newObj = {
+    "id": newId,
+    "task": req.body.newTask,
+    "priority": "Medium",
+    "status": "New"
+  }
+  console.log(newObj);
+  funcs.addTask(newObj)
   console.log(data)
-
+  res.redirect('/')
 })
 
 
