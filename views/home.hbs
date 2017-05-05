@@ -8,16 +8,11 @@
       <th>Priority</th>
       <th>Status</th>
     </tr>
-
+    {{#each data}}
     <tr>
-      <td>Wash Clothes</td><td><button class="priority">Low</button></td><td><button class="status">New</button></td>
+  <td>{{task}}</td><td><button class="priority">{{priority}}</button></td><td><button class="status">{{status}}</button></td>
     </tr>
-    <tr>
-      <td>Visit Hagrid</td><td><button class="priority">High</button></td><td><button class="status">New</button></td>
-    </tr>
-    <tr>
-      <td>Buy a New Wand</td><td><button class="priority">Medium</button></td><td><button class="status">Done</button></td>
-    </tr>
+    {{/each}}
 
     <form class="" action="/" method="post">
       <input type="text" name="newTask" placeholder="Add new task here">

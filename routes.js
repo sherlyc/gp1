@@ -4,7 +4,7 @@ var funcs = require('./functions')
 var data = require('./data.json')
 
 router.get('/', (req, res) => {
-  res.render('home')
+  res.render('home', {data})
 })
 
 router.get('/other', (req, res) => {
