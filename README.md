@@ -25,26 +25,29 @@ _group project 1_
  
     test: addTask function returns newly added task.
            
- 2. user can delete a task - delTask()
- 
-     test: check the length of our data, is it -1?
- 
- 3. user can set priority - setPriority()
- 
-     test : check the value of the priority of the edited task.
- 
- 4. User can  set status - setStatus()
- 
-     test : check the value of the status of the edited task.
-
- 
- 5. User can list all tasks - displayTasks()
+ 2.  User can list all tasks - displayTasks()
  
       test: check the 3rd task display on webpage, is the string matched with our 3rd test data.
  
- 6. user can edit a task - editTask()
  
-      test : check the task value edited task whether it match with our test string.
+ 3.  user can delete a task - delTask()
+ 
+     test: check the length of our data, is it -1? 
+ 
+ 4. user can edit a task - editTask()
+ 
+     test : check the value of the status of the edited task.
+
+ 5. *STRETCH  user can set priority - setPriority()
+ 
+     test : check the value of the priority of the edited task.
+
+ 
+ 6. *STRETCH User can  set status - setStatus()
+ 
+    test : check the task value edited task whether it match with our test string.
+ 
+
       
  # User Interface (HTML & CSS)
  Main - display all tasks, add task form, edit/delete buttons, dropdown menus for priorities and status.
